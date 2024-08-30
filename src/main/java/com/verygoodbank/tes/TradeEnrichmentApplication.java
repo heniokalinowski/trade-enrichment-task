@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TradeEnrichmentServiceApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(TradeEnrichmentServiceApplication.class, args);
-	}
-
+public class TradeEnrichmentApplication
+{
+    public static void main(String[] args)
+    {
+        SpringApplication.run(TradeEnrichmentApplication.class, args);
+    }
 }
